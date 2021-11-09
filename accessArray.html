@@ -1,0 +1,12 @@
+<!DOCTYPEhtml>
+<html>
+<body>
+<h2>Array in JSON</h2>
+<p id="demo"></p>
+<script>
+const myJSON='{"name":"GARGI","age":"1","college":["KIET","AKG","ABES"]}';
+const myObj=JSON.parse(myJSON);
+document.getElementById("demo").innerHTML=myObj.college[0];
+</script> 
+</body>
+</html>
